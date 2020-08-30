@@ -16,6 +16,47 @@ function App() {
           </a>
         </li>
       ));
+    },
+    get bottomBar() {
+      return (
+        <div>
+          <ul class="soc">
+            <li>
+              <a
+                class="soc-facebook"
+                target="_blank"
+                href="http://facebook.com/192.168.Kyle.Hovey"
+              />
+            </li>
+            <li>
+              <a
+                class="soc-linkedin"
+                target="_blank"
+                href="http://linkedin.com/in/kyle-hovey"
+              />
+            </li>
+            <li>
+              <a
+                class="soc-github soc-icon-last"
+                target="_blank"
+                href="http://github.com/kylehovey"
+              />
+            </li>
+          </ul>
+          <div class="links">
+            <a href="https://github.com/kylehovey/resume/raw/master/kyle_hovey_resume.pdf">
+              Download Resume
+            </a>
+            <span class="divider">|</span>
+            <a href="blog">Blog</a>
+            <span class="divider">|</span>
+            <a href="Resolutions/index.html">
+              Resolutions </a>
+            <span class="divider">|</span>
+            <a href="MATH_5620">Math 5620</a>
+          </div>
+        </div>
+      );
     }
   };
 
@@ -31,6 +72,8 @@ function App() {
           <ul className="projects-list">
             {methods.projects}
           </ul>
+          <hr />
+          {methods.bottomBar}
         </div>
       </div>
     </div>
