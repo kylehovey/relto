@@ -1,5 +1,33 @@
 export default [
   {
+    title : "Automata Browser",
+    year: "2020",
+    brief: "Global map of all life-like CA",
+    description : "I was researching emergent complexity in cellular automata and found a classification scheme for all quarter million life-like automata. The embedding compresses all of the rules into a nebula of points where distance between any two points provides a decent approximation of how simililarly the rules behave given a random initial board state. I built this browser with React so that I could better explore the dataset.",
+    link : "/automata-nebula-explorer/index.html"
+  },
+  {
+    title : "Fiery Furnace",
+    year: "2020",
+    brief: "Interactive map of the Fiery Furnace",
+    description : "Pre-pandemic, my partner Hannah and I took a trip down to Arches National Park in Utah. The highlight was exploring the Fiery Furnace: a labrynth of ancient sandstone with no main trail, only meandering boulder routes and washes. I exported the route data (recorded with my watch) and interpolated photo time-stamps with location time-stamps to create an interactive map of our path with pictures along the way using Mapbox.",
+    link : "/FieryFurnace/index.html"
+  },
+  {
+    title : "Shader Toy",
+    year: "2020",
+    brief: "Various shaders written by me",
+    description : "I have been having a lot of fun learning how to write shaders. GLSL seemed like an intimidating topic at first, but once I realized it was essentially a very parrellized graphing calculator I started having a lot of fun and have been picking up some more techniques. As of writing this, I have worked with Ray Marching, Conformal Mapping, and 2D interference patterns.",
+    link : "https://www.shadertoy.com/user/kylehovey"
+  },
+  {
+    title : "Myst Net",
+    year: "2019",
+    brief: "Neural Net for parsing D'ni numerals",
+    description : "This was my last hackathon project. The D'ni numeral system is from the world of Myst, a game series that I am a very large fan of. The system is base-25, and has a rotational glyph system with a base-5 sub-pattern. I wanted to see if I could reproduce the MNIST convnet example using D'ni numbers. To generate training data, I wrote the segments in isolation and created a script to produce combinatorial sets of the individual segments I created. In the end, the network had over 99% validation accuracy and responded well to novel handwritten D'ni digits.",
+    link : "https://github.com/kylehovey/myst-net"
+  },
+  {
     title : "Vector Wind",
     year: "2017",
     brief: "Vector field visualization tool",
