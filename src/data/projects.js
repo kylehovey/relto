@@ -67,7 +67,7 @@ export default [
     year: "2018",
     brief: "Analysis to find the best spots for new EV chargers",
     description : "In Utah, where the air is bad enough each winter to take years off of the average person's life expectancy, electric vehicle adoption is one of the many solutions to our air quality. At the Utah Power and Electronics Lab (UPEL), I helped Rocky Mountain Power determine where to place/fund new electric vehicle charging stations in Utah. We worked with the Utah Department of Transportation to combine traffic information, as well as network analysis on the roadways to find the locations that would have the highest impact for EV adoption. This interactive report summarizes the findings of the analysis and visualizes what corridors are affected.",
-    link : "UlamSpinner/index.html"
+    link : "stationReport/index.html"
   },
   {
     title : "8-Bit Spaghetti",
