@@ -63,21 +63,11 @@ function App() {
           <ul className="soc">
             <li>
               <a
-                className="soc-facebook"
-                target="_blank"
-                href="http://facebook.com/192.168.Kyle.Hovey"
-                rel="noreferrer"
-              />
-            </li>
-            <li>
-              <a
                 className="soc-linkedin"
                 target="_blank"
                 href="http://linkedin.com/in/kyle-hovey"
                 rel="noreferrer"
-              />
-            </li>
-            <li>
+              /> </li> <li>
               <a
                 className="soc-github soc-icon-last"
                 target="_blank"
