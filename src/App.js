@@ -27,7 +27,7 @@ function App() {
       return (
         <div className="details">
           <button onClick={() => setSelectedProjectIndex(null)}>
-            {'←'}
+            {'⇐'}
           </button>
           <h3>
             {title} 
