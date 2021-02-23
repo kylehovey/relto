@@ -1,5 +1,8 @@
-$bg: #3b3b3b;
-$fg: #f3f3f3;
+$bg: #282828;
+$fg: #fbf1c7;
+$hl: #689d6a;
+$yellow: #fabd2f;
+$red: #fb4934;
 
 body {
   background-color: $bg;
@@ -48,11 +51,13 @@ div.container {
       width: 180px;
       transition: 0.5s;
       background-color: initial;
-      margin: 0 20px;
-      margin-bottom: 20px;
+      margin: 0 10px;
+      margin-bottom: 10px;
+      background-color: lighten($bg, 1%);
+      border-radius: 2px;
 
       &:hover {
-        background-color: #4b4b4b;
+        background-color: lighten($bg, 10%);
         transition: 0.5s;
         cursor: pointer;
       }
@@ -70,6 +75,7 @@ div.container {
 
           &.title {
             font-weight: bold;
+            color: $hl;
           }
 
           &.brief {
@@ -219,11 +225,11 @@ div.container {
 
 .details {
   button {
+    color: $red;
     background: none;
     border: none;
     text-decoration: none;
-    font-weight: bold;
-    color: $fg;
+    font-weight: 1000;
     font-size: 1.4em;
 
     &:hover {
@@ -231,8 +237,12 @@ div.container {
     }
   }
 
+  h3 {
+    color: $hl;
+  }
+
   a {
-    color: $fg;
+    color: $yellow;
     text-decoration: none;
     font-weight: bold;
   }
