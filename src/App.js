@@ -91,6 +91,18 @@ function App() {
         </div>
       );
     },
+    get intro() {
+      if (selectedProjectIndex !== null) {
+        return null;
+      }
+
+      return (
+        <div>
+          <h2>Project Portfolio</h2>
+          <p>Hi! My name is Kyle. I grew up in a small community in the Sierra Nevada mountains. In 2019, I graduated Utah State University with a BS in Computational Mathematics. My passions include mathematics, electrical engineering, programming, music, hiking, climbing, and philosophy. Here you can see some highlights from my past/current projects. Check out my blog for diatribes on math and programming.</p>
+        </div>
+      );
+    }
   };
 
   return (
@@ -99,8 +111,7 @@ function App() {
         <div className="main">
           <div className="description">
             <a className="logo" href="#"></a>
-            <h2>Project Portfolio</h2>
-            <p>Hi! My name is Kyle. I grew up in a small community in the Sierra Nevada mountains. In 2019, I graduated Utah State University with a BS in Computational Mathematics. My passions include mathematics, electrical engineering, programming, music, hiking, climbing, and philosophy. Here you can see some highlights from my past/current projects. Check out my blog for diatribes on math and programming.</p>
+            {methods.intro}
           </div>
           {methods.projects}
           {methods.description}
