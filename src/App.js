@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import logo from './logo.png';
 
 import './App.scss';
 
@@ -34,7 +33,7 @@ function App() {
             {title} 
           </h3>
           <p>{description}</p>
-          <a href={link} target="_blank">(Link)</a>
+          <a href={link} rel="noreferrer" target="_blank">(Link)</a>
         </div>
       );
     },
@@ -67,6 +66,7 @@ function App() {
                 className="soc-facebook"
                 target="_blank"
                 href="http://facebook.com/192.168.Kyle.Hovey"
+                rel="noreferrer"
               />
             </li>
             <li>
@@ -74,6 +74,7 @@ function App() {
                 className="soc-linkedin"
                 target="_blank"
                 href="http://linkedin.com/in/kyle-hovey"
+                rel="noreferrer"
               />
             </li>
             <li>
@@ -81,6 +82,7 @@ function App() {
                 className="soc-github soc-icon-last"
                 target="_blank"
                 href="http://github.com/kylehovey"
+                rel="noreferrer"
               />
             </li>
           </ul>
@@ -106,7 +108,7 @@ function App() {
       <div className="content">
         <div className="main">
           <div className="description">
-            <a class="logo" href="#"></a>
+            <a className="logo" href="#"></a>
             <h2>Project Portfolio</h2>
             <p>Hi! My name is Kyle. I grew up in a small community in the Sierra Nevada mountains. In 2019, I graduated Utah State University with a BS in Computational Mathematics. My passions include mathematics, electrical engineering, programming, music, hiking, climbing, and philosophy. Here you can see some highlights from my past/current projects. Check out my blog for diatribes on math and programming.</p>
           </div>
