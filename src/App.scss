@@ -56,10 +56,27 @@ div.container {
       background-color: lighten($bg, 1%);
       border-radius: 2px;
 
+      div.title-section {
+        display: flex;
+        align-items: top;
+        justify-content: flex-start;
+        margin-bottom: 10px;
+
+        svg {
+          font-size: 1.5rem;
+          padding-right: 10px;
+        }
+      }
+
       &:hover {
         background-color: lighten($bg, 10%);
         transition: 0.5s;
         cursor: pointer;
+
+        svg {
+          color: $yellow;
+          transition: 0.5s;
+        }
       }
 
       a {
@@ -67,14 +84,12 @@ div.container {
         text-decoration: none;
         padding: 10px;
         margin: 0px;
-        margin-bottom: 20px;
         display: block;
 
         span {
           display: block;
 
           &.title {
-            font-weight: bold;
             color: $hl;
           }
 

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import './App.scss';
 
@@ -42,10 +43,13 @@ function App() {
         return null;
       }
 
-      const elements = projects.map(({ title, brief }, i) => (
+      const elements = projects.map(({ title, icon, brief }, i) => (
         <li key={`project-${i}`}>
           <a href="#" onClick={methods.handleClick(i)}>
-            <span className="title">{title}</span>
+            <div className="title-section">
+              <FontAwesomeIcon icon={icon} />
+              <span className="title">{title}</span>
+            </div>
             <span className="brief">{brief}</span>
           </a>
         </li>
