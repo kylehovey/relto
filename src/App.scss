@@ -264,6 +264,10 @@ div.container {
 
   div.project-image-container {
     margin-top: 10px;
+
+    img {
+      max-width: 100%;
+    }
   }
 
   div.focused-title-section {
