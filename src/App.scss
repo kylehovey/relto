@@ -43,18 +43,18 @@ div.container {
   ul.projects-list {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -20px;
-    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
 
     li {
+      display: flex;
+      align-items: stretch;
       list-style: none;
       width: 200px;
       transition: 0.5s;
-      background-color: initial;
-      margin: 0 10px;
-      margin-bottom: 10px;
-      background-color: lighten($bg, 4%);
       border-radius: 2px;
+      padding: 0 0 10px 10px;
 
       div.title-section {
         display: flex;
@@ -69,8 +69,6 @@ div.container {
       }
 
       &:hover {
-        background-color: lighten($bg, 10%);
-        transition: 0.5s;
         cursor: pointer;
 
         svg {
@@ -81,10 +79,17 @@ div.container {
 
       a {
         color: $fg;
+        background-color: lighten($bg, 4%);
         text-decoration: none;
-        padding: 10px;
+        padding: 15px;
         margin: 0px;
         display: block;
+        width: 100%;
+
+        &:hover {
+          background-color: lighten($bg, 10%);
+          transition: 0.5s;
+        }
 
         span {
           display: block;
