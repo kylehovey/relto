@@ -22,7 +22,8 @@ function App() {
       const {
         title,
         description,
-        link
+        link,
+        icon,
       } = projects[selectedProjectIndex];
 
       return (
@@ -30,9 +31,10 @@ function App() {
           <button onClick={() => setSelectedProjectIndex(null)}>
             {'⇐'}
           </button>
-          <h3>
-            {title} 
-          </h3>
+          <div className="focused-title-section">
+            <h3>{title}</h3>
+            <FontAwesomeIcon icon={icon} />
+          </div>
           <p>{description}</p>
           <a href={link} rel="noreferrer" target="_blank">(Link)</a>
         </div>
