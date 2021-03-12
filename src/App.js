@@ -24,6 +24,7 @@ function App() {
         description,
         link,
         icon,
+        image,
       } = projects[selectedProjectIndex];
 
       return (
@@ -37,6 +38,9 @@ function App() {
           </div>
           <p>{description}</p>
           <a href={link} rel="noreferrer" target="_blank">(Link)</a>
+          <div className="project-image-container">
+            <img src={image} />
+          </div>
         </div>
       );
     },
