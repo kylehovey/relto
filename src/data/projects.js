@@ -18,7 +18,7 @@ const projects = [
     title : "Automata Browser",
     icon: faChessBoard,
     year: "2020",
-    brief: "Global map of all life-like CA",
+    brief: "Global map of all life-like Cellular Automata",
     description : "I was researching emergent complexity in cellular automata and found a classification scheme for all quarter million life-like automata. The embedding compresses all of the rules into a nebula of points where distance between any two points provides a decent approximation of how simililarly the rules behave given a random initial board state. I built this browser with React so that I could better explore the dataset.",
     link : "/automata-nebula-explorer/index.html"
   },
@@ -26,7 +26,7 @@ const projects = [
     title : "Fiery Furnace",
     icon: faHiking,
     year: "2020",
-    brief: "Interactive map of the Fiery Furnace",
+    brief: "Interactive map of the Fiery Furnace in Arches National Park",
     description : "Pre-pandemic, my partner Hannah and I took a trip down to Arches National Park in Utah. The highlight was exploring the Fiery Furnace: a labrynth of ancient sandstone with no main trail, only meandering boulder routes and washes. I exported the route data (recorded with my watch) and interpolated photo time-stamps with location time-stamps to create an interactive map of our path with pictures along the way using Mapbox.",
     link : "/FieryFurnace/index.html"
   },
