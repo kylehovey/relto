@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './App.scss';
 
 import projects from './data/projects';
+import { ReactComponent as Logo } from './logo.svg';
 
 function App() {
   const [ selectedProjectIndex, setSelectedProjectIndex ] = useState(null);
@@ -120,7 +121,7 @@ function App() {
       <div className="content">
         <div className="main">
           <div className="description">
-            <a className="logo" href="#"></a>
+            <Logo className="logo" />
             {methods.intro}
           </div>
           {methods.projects}

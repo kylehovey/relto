@@ -27,13 +27,10 @@ div.container {
     margin-right: auto;
 
     div.description {
-      a.logo {
-        width: 64px;
-        height: 64px;
-        background-image: url('./logo.png');
-        background-position: center;
-        background-size: cover;
+      svg.logo {
         display: inline-block;
+        width: 64px;
+        height: auto;
       }
 
       margin-bottom: 40px;
