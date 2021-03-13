@@ -121,7 +121,7 @@ function App() {
       <div className="content">
         <div className="main">
           <div className="description">
-            <Logo className="logo" />
+            <div className="logo" />
             {methods.intro}
           </div>
           {methods.projects}
