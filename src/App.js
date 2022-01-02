@@ -78,7 +78,9 @@ function App() {
                 target="_blank"
                 href="http://linkedin.com/in/kyle-hovey"
                 rel="noreferrer"
-              /> </li> <li>
+              />
+            </li>
+            <li>
               <a
                 className="soc-github soc-icon-last"
                 target="_blank"
@@ -95,6 +97,8 @@ function App() {
             <a href="blog">Blog</a>
             <span className="divider">|</span>
             <a href="MATH_5620">Math 5620</a>
+            <span className="divider">|</span>
+            <a href="resolutions/index.html">Resolutions</a>
           </div>
           <div className="attribution">
             Inspired by <a href="https://github.com/autophagy/hraew">Hraew</a>
